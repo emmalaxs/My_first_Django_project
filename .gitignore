@@ -1,0 +1,25 @@
+ECHO is on.
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Test output
+*.out
+*.err
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Package files
+*.egg-info/
+*.egg
+
+# Django-specific files
+*.sqlite3
+db.sqlite3
